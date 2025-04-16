@@ -1,0 +1,92 @@
+/* Background Color and General Styling */
+body {
+    background-color: #f5f5f5; /* Light blue background */
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  
+  h3.register-heading {
+    color: black; /* Heading color set to black */
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .navbar {
+    background-color: #0062cc; /* Dark blue navbar */
+  }
+  
+  .navbar .navbar-brand h4 {
+    color: white;
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: white !important;
+  }
+  
+  .register {
+    background: #f8f9fa; /* Light background for form container */
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 20px;
+  }
+  
+  .form-control {
+    border-radius: 0.25rem;
+    padding: 10px;
+  }
+  
+  .btnRegister {
+    background-color: #0062cc;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    width: 100%;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btnRegister:hover {
+    background-color: #004d99;
+  }
+  
+  a {
+    color: #0062cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #004d99;
+  }
+  
+  .footer {
+    background-color: white;
+    color: black;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer .column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer .column a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .footer .social i {
+    font-size: 24px;
+    color: black;
+    margin-right: 10px;
+  }
+  
+  .footer .note {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  
